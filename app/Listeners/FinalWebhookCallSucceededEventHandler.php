@@ -2,9 +2,9 @@
 
 namespace App\Listeners;
 
-use App\Events\Spatie\WebhookServer\Events\FinalWebhookCallFailedEvent;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Queue\InteractsWithQueue;
+use Spatie\WebhookServer\Events\FinalWebhookCallFailedEvent;
 
 class FinalWebhookCallSucceededEventHandler
 {

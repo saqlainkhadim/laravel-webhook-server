@@ -22,6 +22,7 @@ class WebhookCallSucceededEventHandler
      */
     public function handle(WebhookCallSucceededEvent $event): void
     {
+        logger("hello from WebhookCallSucceededEvent");
         $payload = $event->payload["user"];
         /**
          * update user's record
